@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Y Manikyarao — ECE Student, Embedded Systems Developer & Web Developer. Explore my projects, skills, and experience.">
+  <title>Y Manikyarao | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Cursor Glow -->
+  <div class="cursor-glow" id="cursorGlow"></div>
+
+  <!-- ===== NAVIGATION ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <div class="nav-logo">YM.</div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#hero" onclick="closeMenu()">Home</a></li>
+        <li><a href="#about" onclick="closeMenu()">About</a></li>
+        <li><a href="#education" onclick="closeMenu()">Education</a></li>
+        <li><a href="#skills" onclick="closeMenu()">Skills</a></li>
+        <li><a href="#projects" onclick="closeMenu()">Projects</a></li>
+        <li><a href="#internships" onclick="closeMenu()">Experience</a></li>
+        <li><a href="#contact" onclick="closeMenu()">Contact</a></li>
+      </ul>
+      <div class="hamburger" id="hamburger" onclick="toggleMenu()">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ===== HERO SECTION ===== -->
+  <section class="hero" id="hero">
+    <div class="hero-container">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <span class="dot"></span> Available for Opportunities
+        </div>
+        <h1>Hi, I'm<br><span class="gradient-text">Y Manikyarao</span></h1>
+        <p class="hero-description">
+          Motivated ECE student with a solid foundation in programming, embedded systems, 
+          and web development. Passionate about solving real-world problems through technology.
+        </p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn-primary">&#128640; View Projects</a>
+          <a href="#contact" class="btn-secondary">&#9993; Get In Touch</a>
+          <a href="https://github.com/manikyarao23" target="_blank" class="btn-secondary" style="gap: 0.5rem;">&#128421; GitHub</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <div class="profile-frame">
+          <img src="manik_photo22.png" alt="Y Manikyarao Profile Photo">
+          <div class="floating-badge top-left">&#128187; ECE Student</div>
+          <div class="floating-badge top-right">&#9889; FPGA Dev</div>
+          <div class="floating-badge bottom-left">&#127760; Web Dev</div>
+          <div class="floating-badge bottom-right">&#129302; AI Enthusiast</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT SECTION ===== -->
+  <section id="about">
+    <div class="section-container">
+      <div class="section-header reveal">
+        <span class="section-label">&#128100; Get To Know</span>
+        <h2 class="section-title">About Me</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="about-grid">
+        <div class="about-info reveal">
+          <p class="about-text">
+            I am a senior undergraduate student pursuing B.Tech in Electronics and Communication 
+            Engineering at Geethanjali College of Engineering and Technology. With a strong 
+            foundation in programming languages like C, Java, and Python, I bring problem-solving 
+            skills and technical expertise to every project I undertake.
+          </p>
+          <p class="about-text">
+            My experience spans embedded systems development, FPGA programming, web development, 
+            and AI workshops. I'm passionate about bridging hardware and software to create 
+            innovative solutions that make a real impact.
+          </p>
+          <div class="info-grid">
+            <div class="info-item">
+              <div class="info-label">Name</div>
+              <div class="info-value">Y Manikyarao</div>
+            </div>
+            <div class="info-item">
+              <div class="info-label">Degree</div>
+              <div class="info-value">B.Tech ECE</div>
+            </div>
+            <div class="info-item">
+              <div class="info-label">College</div>
+              <div class="info-value">Geethanjali College</div>
+            </div>
+            <div class="info-item">
+              <div class="info-label">Phone</div>
+              <div class="info-value">+91-8499913796</div>
+            </div>
+          </div>
+        </div>
+        <div class="about-stats reveal">
+          <div class="stat-card">
+            <div class="stat-number">5+</div>
+            <div class="stat-label">Projects Completed</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number">5+</div>
+            <div class="stat-label">Internships & Workshops</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number">5+</div>
+            <div class="stat-label">Technical Skills</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number">NCC</div>
+            <div class="stat-label">'A' Certified</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EDUCATION SECTION ===== -->
+  <section id="education">
+    <div class="section-container">
+      <div class="section-header reveal">
+        <span class="section-label">&#127891; Academic Journey</span>
+        <h2 class="section-title">Education</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="education-timeline">
+        <div class="edu-card reveal">
+          <div class="edu-year">2022 — Present</div>
+          <div class="edu-degree">B.Tech — ECE</div>
+          <div class="edu-school">Geethanjali College of Engineering & Technology</div>
+          <div class="edu-score">CPI: 6.5</div>
+        </div>
+        <div class="edu-card reveal">
+          <div class="edu-year">2020 — 2022</div>
+          <div class="edu-degree">MPC — Intermediate</div>
+          <div class="edu-school">TSWRIS (Parigi)</div>
+          <div class="edu-score">Score: 74.0%</div>
+        </div>
+        <div class="edu-card reveal">
+          <div class="edu-year">2014 — 2020</div>
+          <div class="edu-degree">SSC — 10th Standard</div>
+          <div class="edu-school">TSWRIS (IBP)</div>
+          <div class="edu-score">Score: 90.0%</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS SECTION ===== -->
+  <section id="skills">
+    <div class="section-container">
+      <div class="section-header reveal">
+        <span class="section-label">&#128736; What I Work With</span>
+        <h2 class="section-title">Technical Skills</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-category reveal">
+          <div class="skill-category-icon">&#128187;</div>
+          <div class="skill-category-title">Programming Languages</div>
+          <div class="skill-tags">
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">C</span>
+            <span class="skill-tag">Java</span>
+            <span class="skill-tag">MATLAB</span>
+            <span class="skill-tag">Arduino IDE</span>
+          </div>
+        </div>
+        <div class="skill-category reveal">
+          <div class="skill-category-icon">&#128295;</div>
+          <div class="skill-category-title">Tools & Platforms</div>
+          <div class="skill-tags">
+            <span class="skill-tag">VS Code</span>
+            <span class="skill-tag">GitHub</span>
+            <span class="skill-tag">Code Leaf</span>
+            <span class="skill-tag">Xilinx EDK/SDK</span>
+          </div>
+        </div>
+        <div class="skill-category reveal">
+          <div class="skill-category-icon">&#9889;</div>
+          <div class="skill-category-title">Domains</div>
+          <div class="skill-tags">
+            <span class="skill-tag">Embedded Systems</span>
+            <span class="skill-tag">FPGA</span>
+            <span class="skill-tag">Web Development</span>
+            <span class="skill-tag">5G Communications</span>
+            <span class="skill-tag">AI/ML</span>
+          </div>
+        </div>
+        <div class="skill-category reveal">
+          <div class="skill-category-icon">&#128161;</div>
+          <div class="skill-category-title">Soft Skills</div>
+          <div class="skill-tags">
+            <span class="skill-tag">Problem Solving</span>
+            <span class="skill-tag">Team Work</span>
+            <span class="skill-tag">Communication</span>
+            <span class="skill-tag">Leadership</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS SECTION ===== -->
+  <section id="projects">
+    <div class="section-container">
+      <div class="section-header reveal">
+        <span class="section-label">&#128640; Featured Work</span>
+        <h2 class="section-title">Projects</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="projects-grid">
+
+        <!-- Project 1: FPGA -->
+        <div class="project-card reveal">
+          <div class="project-image-wrapper">
+            <img src="images/fpga.png" alt="FPGA Embedded System" class="project-image">
+            <div class="project-overlay"></div>
+          </div>
+          <div class="project-content">
+            <span class="project-tag">Embedded Systems</span>
+            <h3 class="project-title">Embedded System in FPGA</h3>
+            <p class="project-desc">Transferring data through FPGA using Ethernet, UART, and peripherals. Implemented parallel processing, timer, and UART communication.</p>
+            <div class="project-tools">
+              <span class="project-tool">EDK</span>
+              <span class="project-tool">SDK</span>
+              <span class="project-tool">Xilinx</span>
+              <span class="project-tool">FPGA</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2: 5G -->
+        <div class="project-card reveal">
+          <div class="project-image-wrapper">
+            <img src="images/5g.png" alt="5G Throughput Analysis" class="project-image">
+            <div class="project-overlay"></div>
+          </div>
+          <div class="project-content">
+            <span class="project-tag">5G Communications</span>
+            <h3 class="project-title">5G Throughput Analysis</h3>
+            <p class="project-desc">Analyzing the effect of modulation schemes (QPSK, 16-QAM, 64-QAM) on 5G throughput using a 5G testbed with SDR devices.</p>
+            <div class="project-tools">
+              <span class="project-tool">SDR</span>
+              <span class="project-tool">gNB</span>
+              <span class="project-tool">UE</span>
+              <span class="project-tool">5G Testbed</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3: Food Storage -->
+        <div class="project-card reveal">
+          <div class="project-image-wrapper">
+            <img src="images/food.png" alt="Food Storage Website" class="project-image">
+            <div class="project-overlay"></div>
+          </div>
+          <div class="project-content">
+            <span class="project-tag">Web Development</span>
+            <h3 class="project-title">Food Storage — Donation Platform</h3>
+            <p class="project-desc">A codeless website to help people in Old Age Homes and Orphanages receive food donations from generous contributors.</p>
+            <div class="project-tools">
+              <span class="project-tool">Codeless Tools</span>
+              <span class="project-tool">UI/UX</span>
+              <span class="project-tool">Web Design</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 4: Emotional Challenge -->
+        <div class="project-card reveal">
+          <div class="project-image-wrapper">
+            <img src="images/emotional.png" alt="Emotional Challenge Website" class="project-image">
+            <div class="project-overlay"></div>
+          </div>
+          <div class="project-content">
+            <span class="project-tag">Web Development</span>
+            <h3 class="project-title">Emotional Challenge Platform</h3>
+            <p class="project-desc">A real-time web project with dedicated sections and chat facilities to help people solve emotional challenges and find support.</p>
+            <div class="project-tools">
+              <span class="project-tool">HTML</span>
+              <span class="project-tool">CSS</span>
+              <span class="project-tool">JavaScript</span>
+              <span class="project-tool">Chat API</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 5: ABS -->
+        <div class="project-card reveal">
+          <div class="project-image-wrapper">
+            <img src="images/arduino.png" alt="Arduino ABS System" class="project-image">
+            <div class="project-overlay"></div>
+          </div>
+          <div class="project-content">
+            <span class="project-tag">IoT / Hardware</span>
+            <h3 class="project-title">Automatic Brake System (ABS)</h3>
+            <p class="project-desc">Programmed an Arduino to analyze vehicle speed and detect surrounding obstacles, providing real-time safety alerts to users.</p>
+            <div class="project-tools">
+              <span class="project-tool">Arduino IDE</span>
+              <span class="project-tool">Sensors</span>
+              <span class="project-tool">C++</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 6: Portfolio -->
+        <div class="project-card reveal">
+          <div class="project-image-wrapper" style="height:220px; display:flex; align-items:center; justify-content:center; background: linear-gradient(135deg, #1a1a2e, #6c5ce7);">
+            <div style="text-align:center; color: white; padding: 2rem;">
+              <div style="font-size: 3rem; margin-bottom: 0.5rem;">&#127760;</div>
+              <div style="font-family: 'Outfit', sans-serif; font-size: 1.3rem; font-weight: 700;">Portfolio Website</div>
+            </div>
+          </div>
+          <div class="project-content">
+            <span class="project-tag">Full Stack</span>
+            <h3 class="project-title">Personal Portfolio</h3>
+            <p class="project-desc">A personal portfolio website deployed on Render showcasing projects, skills, and professional experience with modern design.</p>
+            <div class="project-tools">
+              <span class="project-tool">HTML</span>
+              <span class="project-tool">CSS</span>
+              <span class="project-tool">JS</span>
+              <span class="project-tool">Render</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== INTERNSHIPS SECTION ===== -->
+  <section id="internships">
+    <div class="section-container">
+      <div class="section-header reveal">
+        <span class="section-label">&#128188; Professional Experience</span>
+        <h2 class="section-title">Internships & Workshops</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="internships-list">
+        <div class="internship-card reveal">
+          <div class="internship-icon">&#128268;</div>
+          <div>
+            <div class="internship-title">Embedded System in FPGA</div>
+            <div class="internship-org">BEL — Bharat Electronics Limited</div>
+          </div>
+        </div>
+        <div class="internship-card reveal">
+          <div class="internship-icon">&#9881;</div>
+          <div>
+            <div class="internship-title">Embedded System Developer — Virtual Internship</div>
+            <div class="internship-org">Edu Skills</div>
+          </div>
+        </div>
+        <div class="internship-card reveal">
+          <div class="internship-icon">&#129302;</div>
+          <div>
+            <div class="internship-title">AI Workshop</div>
+            <div class="internship-org">Microsoft AI Innovators Hub</div>
+          </div>
+        </div>
+        <div class="internship-card reveal">
+          <div class="internship-icon">&#128640;</div>
+          <div>
+            <div class="internship-title">Agent X 2025 Workshop</div>
+            <div class="internship-org">Microsoft AI Innovators Hub</div>
+          </div>
+        </div>
+        <div class="internship-card reveal">
+          <div class="internship-icon">&#127760;</div>
+          <div>
+            <div class="internship-title">Web Development Using Codeless Tools</div>
+            <div class="internship-org">Brain O Vision</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ACHIEVEMENTS SECTION ===== -->
+  <section id="achievements">
+    <div class="section-container">
+      <div class="section-header reveal">
+        <span class="section-label">&#127942; Milestones</span>
+        <h2 class="section-title">Achievements</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="achievements-grid">
+        <div class="achievement-card reveal">
+          <div class="achievement-icon">&#127941;</div>
+          <div>
+            <div class="achievement-text">Secured <span class="achievement-highlight">1st position</span> in Hand Ball (State Level) out of 40+ teams — 2019</div>
+          </div>
+        </div>
+        <div class="achievement-card reveal">
+          <div class="achievement-icon">&#127952;</div>
+          <div>
+            <div class="achievement-text">Secured <span class="achievement-highlight">1st position</span> in Volleyball out of 20+ competing players from the institute</div>
+          </div>
+        </div>
+        <div class="achievement-card reveal">
+          <div class="achievement-icon">&#127894;</div>
+          <div>
+            <div class="achievement-text">Completed <span class="achievement-highlight">NCC 'A' Certification</span> — National Cadet Corps</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT SECTION ===== -->
+  <section id="contact">
+    <div class="section-container">
+      <div class="section-header reveal">
+        <span class="section-label">&#128172; Let's Connect</span>
+        <h2 class="section-title">Contact Me</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <a href="mailto:ymanikyarao59@gmail.com" class="contact-card">
+            <div class="contact-icon">&#9993;</div>
+            <div>
+              <div class="contact-label">Email</div>
+              <div class="contact-value">ymanikyarao59@gmail.com</div>
+            </div>
+          </a>
+          <a href="tel:+918499913796" class="contact-card">
+            <div class="contact-icon">&#128222;</div>
+            <div>
+              <div class="contact-label">Phone</div>
+              <div class="contact-value">+91-8499913796</div>
+            </div>
+          </a>
+          <a href="https://www.linkedin.com/in/y-manikyarao-6a77b3329" target="_blank" class="contact-card">
+            <div class="contact-icon">&#128279;</div>
+            <div>
+              <div class="contact-label">LinkedIn</div>
+              <div class="contact-value">y-manikyarao</div>
+            </div>
+          </a>
+          <a href="https://github.com/manikyarao23" target="_blank" class="contact-card">
+            <div class="contact-icon">&#128421;</div>
+            <div>
+              <div class="contact-label">GitHub</div>
+              <div class="contact-value">manikyarao23</div>
+            </div>
+          </a>
+
+
+        </div>
+        <form class="contact-form reveal" onsubmit="handleSubmit(event)">
+          <div class="form-group">
+            <input type="text" placeholder="Your Name" required id="contactName">
+          </div>
+          <div class="form-group">
+            <input type="email" placeholder="Your Email" required id="contactEmail">
+          </div>
+          <div class="form-group">
+            <input type="text" placeholder="Subject" id="contactSubject">
+          </div>
+          <div class="form-group">
+            <textarea placeholder="Your Message" required id="contactMessage"></textarea>
+          </div>
+          <button type="submit" class="btn-primary" style="width:100%; justify-content:center;">&#128228; Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="footer-links">
+      <a href="#hero">Home</a>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+      <a href="https://github.com/manikyarao23" target="_blank">GitHub</a>
+    </div>
+    <p>&copy; 2026 Y Manikyarao. Crafted with passion &amp; precision.</p>
+  </footer>
+
+  <!-- ===== JAVASCRIPT ===== -->
+  <script src="script.js"></script>
+</body>
+</html>
